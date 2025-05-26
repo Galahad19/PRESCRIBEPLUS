@@ -35,9 +35,9 @@ const Navbar = () => {
             <nav className="container mx-auto px-6 py-4">
                 <div className="flex items-center justify-between">
                     <Link to="/" className="flex items-center">
-                    <img src="/src/assets/images/giphy.webp" alt="CarePlus Logo" className="h-10 w-10 mr-3" />
+                    <img src="/src/assets/images/giphy.webp" alt="PrescribePlus Logo" className="h-10 w-10 mr-3" />
                         <motion.div className='text-2xl font-bold' whileHover={{ scale: 1.05 }}>
-                            Care<span className='text-[#00ff9d]'>Plus</span>
+                            Prescribe<span className='text-[#00ff9d]'>Plus</span>
                         </motion.div>
                     </Link>
                     
@@ -50,11 +50,6 @@ const Navbar = () => {
                         ) : (
                             <NavItem icon={<FaSignInAlt />} text="Login" to="/auth" />
                         )}
-                        <a href="https://github.com/rajesh-adk-137/CarePlus.git" target="_blank" rel="noopener noreferrer">
-                            <motion.button whileHover={{ scale: 1.05 }} className="text-white">
-                                <FaGithub size={24} />
-                            </motion.button>
-                        </a>
                     </div>
 
                     {/* Mobile Menu Button */}
@@ -81,9 +76,6 @@ const Navbar = () => {
                         ) : (
                             <NavItem icon={<FaSignInAlt />} text="Login" to="/auth" mobile />
                         )}
-                        <a href="https://github.com/rajesh-adk-137/CarePlus.git" target="_blank" rel="noopener noreferrer" className="block py-2">
-                            <FaGithub size={24} className="inline mr-2" /> GitHub
-                        </a>
                     </div>
                 )}
             </nav>

@@ -4,24 +4,24 @@ import { FaChevronDown } from 'react-icons/fa';
 
 const faqData = [
     {
-        question: "What is CarePlus?",
-        answer: "CarePlus is an AI-powered health assistant app that provides personalized symptom analysis, severity assessment, and connects patients with appropriate medical care."
+        question: "What is PrescribePlus?",
+        answer: "PrescribePlus is an AI-powered health assistant app that provides personalized symptom analysis, severity assessment, and connects patients with appropriate medical Prescribe."
     },
     {
-        question: "How does CarePlus analyze symptoms?",
-        answer: "CarePlus uses advanced AI technology, specifically the Gemini API, to analyze patient-reported symptoms, age, gender, and other factors to provide a comprehensive health assessment."
+        question: "How does PrescribePlus analyze symptoms?",
+        answer: "PrescribePlus uses advanced AI technology, specifically the Gemini API, to analyze patient-reported symptoms, age, gender, and other factors to provide a comprehensive health assessment."
     },
     {
-        question: "What types of users can sign up for CarePlus?",
-        answer: "CarePlus supports two types of users: patients and doctors. Each user type has access to different features tailored to their needs."
+        question: "What types of users can sign up for PrescribePlus?",
+        answer: "PrescribePlus supports two types of users: patients and doctors. Each user type has access to different features tailored to their needs."
     },
     {
-        question: "How does CarePlus determine the severity of a condition?",
-        answer: "CarePlus assesses the severity of a condition based on the symptoms reported, their duration, and the patient's self-reported pain level. It categorizes cases as mild, severe, or extreme."
+        question: "How does PrescribePlus determine the severity of a condition?",
+        answer: "PrescribePlus assesses the severity of a condition based on the symptoms reported, their duration, and the patient's self-reported pain level. It categorizes cases as mild, severe, or extreme."
     },
     {
-        question: "Can I connect with doctors through CarePlus?",
-        answer: "Yes, for severe and extreme cases, CarePlus provides a doctor card component that displays relevant specialists based on your symptoms. You can contact these doctors directly through the app."
+        question: "Can I connect with doctors through PrescribePlus?",
+        answer: "Yes, for severe and extreme cases, PrescribePlus provides a doctor card component that displays relevant specialists based on your symptoms. You can contact these doctors directly through the app."
     }
 ];
 

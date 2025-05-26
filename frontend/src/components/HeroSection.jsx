@@ -30,7 +30,7 @@ const HeroSection = () => {
                     >
                         <img 
                             src={heroImage} 
-                            alt="AI in Healthcare" 
+                            alt="AI in HealthPrescribe" 
                             className="rounded-lg  w-full h-auto max-w-xl mx-auto mb-4" // Adjusted class for larger image and margin-bottom
                         />
                     </motion.div>
@@ -46,7 +46,7 @@ const HeroSection = () => {
                             animate={{ opacity: 1 }}
                             transition={{ delay: 0.4, duration: 0.5 }}
                         >
-                            CarePlus: Your Personalized Health Companion
+                            PrescribePlus: Your Personalized Health Companion
                         </motion.h2>
                         <motion.h1 
                             className="text-5xl font-bold text-gray-800 mb-6"
@@ -54,7 +54,7 @@ const HeroSection = () => {
                             animate={{ opacity: 1 }}
                             transition={{ delay: 0.2, duration: 0.5 }}
                         >
-                            Intelligent Healthcare, Anytime, Anywhere
+                            Intelligent HealthPrescribe, Anytime, Anywhere
                         </motion.h1>
                         <motion.p 
                             className=" mb-8 text-gray-600"
@@ -62,7 +62,7 @@ const HeroSection = () => {
                             animate={{ opacity: 1 }}
                             transition={{ delay: 0.6, duration: 0.5 }}
                         >
-                            Empower your health journey with AI-driven insights and personalized care. CarePlus provides you with comprehensive health analysis, immediate remedies, and professional medical support tailored to your needs.
+                            Empower your health journey with AI-driven insights and personalized Prescribe. PrescribePlus provides you with comprehensive health analysis, immediate remedies, and professional medical support tailored to your needs.
                         </motion.p>
                         <motion.p 
                             className=" mb-8 text-gray-600"
@@ -70,7 +70,7 @@ const HeroSection = () => {
                             animate={{ opacity: 1 }}
                             transition={{ delay: 0.8, duration: 0.5 }}
                         >
-                            Experience the future of healthcare with real-time AI analysis and instant access to the best medical advice.
+                            Experience the future of healthPrescribe with real-time AI analysis and instant access to the best medical advice.
                         </motion.p>
                         <motion.button
                             onClick={handleGetStarted}

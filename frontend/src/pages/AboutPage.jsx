@@ -21,7 +21,7 @@ export default function AboutPage() {
                                     animate={{ opacity: 1, scale: 1 }}
                                     transition={{ duration: 0.5 }}
                                 >
-                                    Care<span className="text-[#00ff9d]">Plus</span>: Your AI-Powered Health Assistant
+                                    Prescribe<span className="text-[#00ff9d]">Plus</span>: Your AI-Powered Health Assistant
                                 </motion.h1>
                                 <motion.p 
                                     className="mt-4 text-lg text-gray-600"
@@ -29,7 +29,7 @@ export default function AboutPage() {
                                     animate={{ opacity: 1 }}
                                     transition={{ delay: 0.3, duration: 0.5 }}
                                 >
-                                    Experience the future of healthcare with CarePlus, our AI-driven medical assistance app. 
+                                    Experience the future of healthcare with PrescribePlus, our AI-driven medical assistance app. 
                                     We utilize cutting-edge technology to provide personalized health insights and connect patients with the right care when they need it most.
                                 </motion.p>
                             </div>
@@ -134,7 +134,7 @@ export default function AboutPage() {
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ delay: 0.3, duration: 0.5 }}
                         >
-                            CarePlus is committed to providing accessible, intelligent healthcare solutions. 
+                            PrescribePlus is committed to providing accessible, intelligent healthcare solutions. 
                             Our app combines the power of AI with medical expertise to ensure you always have a reliable health partner at your fingertips.
                         </motion.p>
                         <motion.div whileHover={{ scale: 1.004 }} transition={{ duration: 0.3 }}>
@@ -142,7 +142,7 @@ export default function AboutPage() {
                                 className="inline-flex items-center justify-center rounded-md bg-green-400 px-6 py-3 text-lg text-[#0d0f2f] font-medium shadow-lg transition-colors hover:bg-green-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#00ff9d] mb-2"
                                 to='/'
                             >
-                                Join CarePlus Today
+                                Join PrescribePlus Today
                             </Link>
                         </motion.div>
                     </div>

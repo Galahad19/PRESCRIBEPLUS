@@ -13,15 +13,15 @@ const Footer = () => {
                         <Link to="/" className="flex items-center mb-4">
                             <motion.img 
                                 src="/src/assets/images/giphy.webp" 
-                                alt="CarePlus Logo" 
+                                alt="PrescribePlus Logo" 
                                 className="h-10 w-10 mr-3" 
                                 whileHover={{ scale: 1.1 }}
                             />
                             <motion.div className='text-2xl font-bold' whileHover={{ scale: 1.05 }}>
-                                Care<span className='text-[#00ff9d]'>Plus</span>
+                                Prescribe<span className='text-[#00ff9d]'>Plus</span>
                             </motion.div>
                         </Link>
-                        <p className="text-gray-300 mb-4 max-w-md">CarePlus offers symptom analysis, severity assessment, and doctor recommendations.</p>
+                        <p className="text-gray-300 mb-4 max-w-md">PrescribePlus offers symptom analysis, severity assessment, and doctor recommendations.</p>
                         <div className="flex space-x-4">
                             <SocialIcon Icon={FaFacebook} />
                             <SocialIcon Icon={FaInstagram} />
@@ -42,7 +42,7 @@ const Footer = () => {
 
                 </div>
                 <div className="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400">
-                    © {new Date().getFullYear()} CarePlus. All rights reserved.
+                    © {new Date().getFullYear()} PrescribePlus. All rights reserved.
                 </div>
             </div>
         </footer>

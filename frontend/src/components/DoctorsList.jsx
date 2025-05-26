@@ -36,17 +36,17 @@ const DoctorsList = ({ responsedData }) => {
   }, []);
 
   const expertiseDescriptions = {
-    "General Physician": "Comprehensive primary care for adults",
+    "General Physician": "Comprehensive primary Prescribe for adults",
     "Cardiology": "Heart and cardiovascular system specialist",
     "Neurology": "Brain, spinal cord, and nervous system expert",
-    "Pediatrics": "Specialized care for infants, children, and adolescents",
+    "Pediatrics": "Specialized Prescribe for infants, children, and adolescents",
     "Orthopedics": "Musculoskeletal system and bone health specialist",
     "Dermatology": "Skin, hair, and nail health expert",
     "Gastroenterology": "Digestive system and gastrointestinal tract specialist",
     "Oncology": "Cancer diagnosis and treatment expert",
     "Psychiatry": "Mental health and behavioral disorders specialist",
     "Allergist": "Allergy and immunology expert",
-    "Ophthalmology": "Eye and vision care specialist",
+    "Ophthalmology": "Eye and vision Prescribe specialist",
     "Radiology": "Medical imaging and diagnostic expert"
   };
 

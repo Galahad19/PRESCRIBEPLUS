@@ -1,28 +1,28 @@
 ---
-# CarePlus: AI-Powered Healthcare Management System
+# PrescribePlus: AI-Powered Healthcare Management System
 
 <p align="center">
-  <a href="https://github.com/rajesh-adk-137/CarePlus/" target="blank">
-    <img src="https://img.shields.io/github/watchers/rajesh-adk-137/CarePlus?style=for-the-badge&logo=appveyor" alt="Watchers"/>
+  <a href="https://github.com/rajesh-adk-137/PrescribePlus/" target="blank">
+    <img src="https://img.shields.io/github/watchers/rajesh-adk-137/PrescribePlus?style=for-the-badge&logo=appveyor" alt="Watchers"/>
   </a>
-  <a href="https://github.com/rajesh-adk-137/CarePlus/fork" target="blank">
-    <img src="https://img.shields.io/github/forks/rajesh-adk-137/CarePlus?style=for-the-badge&logo=appveyor" alt="Forks"/>
+  <a href="https://github.com/rajesh-adk-137/PrescribePlus/fork" target="blank">
+    <img src="https://img.shields.io/github/forks/rajesh-adk-137/PrescribePlus?style=for-the-badge&logo=appveyor" alt="Forks"/>
   </a>
-  <a href="https://github.com/rajesh-adk-137/CarePlus/stargazers" target="blank">
-    <img src="https://img.shields.io/github/stars/rajesh-adk-137/CarePlus?style=for-the-badge&logo=appveyor" alt="Star"/>
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/rajesh-adk-137/CarePlus/issues" target="blank">
-    <img src="https://img.shields.io/github/issues/rajesh-adk-137/CarePlus?style=for-the-badge&logo=appveyor" alt="Issues"/>
-  </a>
-  <a href="https://github.com/rajesh-adk-137/CarePlus/pulls" target="blank">
-    <img src="https://img.shields.io/github/issues-pr/rajesh-adk-137/CarePlus?style=for-the-badge&logo=appveyor" alt="Open Pull Request"/>
+  <a href="https://github.com/rajesh-adk-137/PrescribePlus/stargazers" target="blank">
+    <img src="https://img.shields.io/github/stars/rajesh-adk-137/PrescribePlus?style=for-the-badge&logo=appveyor" alt="Star"/>
   </a>
 </p>
 <p align="center">
-  <a href="https://github.com/rajesh-adk-137/CarePlus/blob/master/LICENSE" target="blank">
-    <img src="https://img.shields.io/github/license/rajesh-adk-137/CarePlus?style=for-the-badge&logo=appveyor" alt="License" />
+  <a href="https://github.com/rajesh-adk-137/PrescribePlus/issues" target="blank">
+    <img src="https://img.shields.io/github/issues/rajesh-adk-137/PrescribePlus?style=for-the-badge&logo=appveyor" alt="Issues"/>
+  </a>
+  <a href="https://github.com/rajesh-adk-137/PrescribePlus/pulls" target="blank">
+    <img src="https://img.shields.io/github/issues-pr/rajesh-adk-137/PrescribePlus?style=for-the-badge&logo=appveyor" alt="Open Pull Request"/>
+  </a>
+</p>
+<p align="center">
+  <a href="https://github.com/rajesh-adk-137/PrescribePlus/blob/master/LICENSE" target="blank">
+    <img src="https://img.shields.io/github/license/rajesh-adk-137/PrescribePlus?style=for-the-badge&logo=appveyor" alt="License" />
   </a>
 </p>
 
@@ -45,27 +45,27 @@
 
 ## Overview
 
-CarePlus is an innovative AI-powered healthcare management system designed to bridge the gap between patients and healthcare providers. By leveraging advanced technologies such as Google Gemini AI for symptom analysis and OPAL (Open Policy Administration Layer) for dynamic access control, CarePlus offers a comprehensive solution for personalized medical advice and efficient doctor-patient connections. The system caters to both patients seeking immediate health guidance and doctors looking to manage their professional profiles, all within a secure and policy-driven environment. With its user-friendly interface built on React and a robust FastAPI backend, CarePlus aims to revolutionize healthcare accessibility and management in the digital age.
+PrescribePlus is an innovative AI-powered healthcare management system designed to bridge the gap between patients and healthcare providers. By leveraging advanced technologies such as Google Gemini AI for symptom analysis and OPAL (Open Policy Administration Layer) for dynamic access control, PrescribePlus offers a comprehensive solution for personalized medical advice and efficient doctor-patient connections. The system caters to both patients seeking immediate health guidance and doctors looking to manage their professional profiles, all within a secure and policy-driven environment. With its user-friendly interface built on React and a robust FastAPI backend, PrescribePlus aims to revolutionize healthcare accessibility and management in the digital age.
 
 ## Key Features
 
 ### AI-Powered Symptom Analysis and Severity Assessment 
-CarePlus leverages Google Gemini AI to analyze patient-reported symptoms, considering factors like age, gender, symptoms, duration and discomfort level. The AI provides a comprehensive assessment, including potential causes, severity classification (mild, severe, or extreme), and tailored advice. This feature offers patients quick, preliminary insights into their health status, aiding in informed decision-making about seeking further medical attention.
+PrescribePlus leverages Google Gemini AI to analyze patient-reported symptoms, considering factors like age, gender, symptoms, duration and discomfort level. The AI provides a comprehensive assessment, including potential causes, severity classification (mild, severe, or extreme), and tailored advice. This feature offers patients quick, preliminary insights into their health status, aiding in informed decision-making about seeking further medical attention.
 
 ### Dynamic Access Control with OPAL Integration
-CarePlus integrates OPAL (Open Policy Administration Layer) for real-time, context-aware access control. This system enables dynamic adjustment of user access based on roles, symptom severity, and current policies, without requiring application restarts. For example, OPAL controls which components (like immediate remedies or doctor recommendations) are accessible to users based on their condition's severity, ensuring appropriate management of sensitive information and critical actions.
+PrescribePlus integrates OPAL (Open Policy Administration Layer) for real-time, context-aware access control. This system enables dynamic adjustment of user access based on roles, symptom severity, and current policies, without requiring application restarts. For example, OPAL controls which components (like immediate remedies or doctor recommendations) are accessible to users based on their condition's severity, ensuring appropriate management of sensitive information and critical actions.
 
 ### Personalized Healthcare Recommendations
-Based on AI analysis and severity assessment, CarePlus offers personalized healthcare advice. For mild cases, it suggests immediate remedies and home care. Severe cases receive more comprehensive guidance and connections to medical professionals. Extreme cases prompt urgent care instructions. This tiered approach ensures users receive appropriate care guidance for their specific situation.
+Based on AI analysis and severity assessment, PrescribePlus offers personalized healthcare advice. For mild cases, it suggests immediate remedies and home care. Severe cases receive more comprehensive guidance and connections to medical professionals. Extreme cases prompt urgent care instructions. This tiered approach ensures users receive appropriate care guidance for their specific situation.
 
 ### Intelligent Doctor-Patient Matching
-CarePlus features a system that matches patients with healthcare providers based on symptom nature and severity. It maintains detailed doctor profiles and highlights professionals whose expertise aligns with patient needs. This intelligent matching streamlines the healthcare-seeking experience, potentially reducing time to treatment and improving patient outcomes.
+PrescribePlus features a system that matches patients with healthcare providers based on symptom nature and severity. It maintains detailed doctor profiles and highlights professionals whose expertise aligns with patient needs. This intelligent matching streamlines the healthcare-seeking experience, potentially reducing time to treatment and improving patient outcomes.
 
 ### Comprehensive Doctor Profile Management
-Healthcare professionals can create and manage detailed profiles within CarePlus, including specializations and qualifications. Doctors can specify their field of expertise, upload profile pictures, and provide contact information. This feature facilitates accurate doctor-patient matching and builds patient confidence in healthcare provider credentials.
+Healthcare professionals can create and manage detailed profiles within PrescribePlus, including specializations and qualifications. Doctors can specify their field of expertise, upload profile pictures, and provide contact information. This feature facilitates accurate doctor-patient matching and builds patient confidence in healthcare provider credentials.
 
 ### Secure and Role-Based User Authentication 
-CarePlus implements robust authentication, distinguishing between patient and doctor roles from signup. Combined with OPAL's policy enforcement, this ensures users access only relevant features and information. For instance, doctors can manage profiles and get messages in their public email, while patients submit symptoms and receive personalized advice. This approach enhances platform security and provides a tailored user experience.
+PrescribePlus implements robust authentication, distinguishing between patient and doctor roles from signup. Combined with OPAL's policy enforcement, this ensures users access only relevant features and information. For instance, doctors can manage profiles and get messages in their public email, while patients submit symptoms and receive personalized advice. This approach enhances platform security and provides a tailored user experience.
 
 ## Technologies Used
 
@@ -79,14 +79,14 @@ CarePlus implements robust authentication, distinguishing between patient and do
 
 ## Getting Started
 
-To get started with CarePlus, you'll need to set up both the frontend and backend components of the application.
+To get started with PrescribePlus, you'll need to set up both the frontend and backend components of the application.
 
 ## Installation
 
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/rajesh-adk-137/CarePlus.git
+git clone https://github.com/rajesh-adk-137/PrescribePlus.git
 ```
 
 ### Frontend Setup
@@ -94,7 +94,7 @@ git clone https://github.com/rajesh-adk-137/CarePlus.git
 1. Navigate to the frontend directory:
 
    ```bash
-   cd CarePlus/frontend
+   cd PrescribePlus/frontend
    ```
 
 2. Install dependencies:
@@ -116,7 +116,7 @@ git clone https://github.com/rajesh-adk-137/CarePlus.git
 2. Navigate to the backend directory:
 
    ```bash
-   cd CarePlus/backend
+   cd PrescribePlus/backend
    ```
 
 3. Setting up a virtual environment (recommended):
@@ -200,46 +200,46 @@ git clone https://github.com/rajesh-adk-137/CarePlus.git
 
 ## Demo
 
-[Click here to watch the demo video](https://github.com/rajesh-adk-137/CarePlus/assets/89499267/d24c8ff7-2614-414b-b85f-5ef1a7979360)
+[Click here to watch the demo video](https://github.com/rajesh-adk-137/PrescribePlus/assets/89499267/d24c8ff7-2614-414b-b85f-5ef1a7979360)
 
 ## Technical Demo
 
-[Click here to watch the technical demo video](https://github.com/rajesh-adk-137/CarePlus/assets/89499267/c0823003-73ff-4b60-babc-b5daa3b38882)
+[Click here to watch the technical demo video](https://github.com/rajesh-adk-137/PrescribePlus/assets/89499267/c0823003-73ff-4b60-babc-b5daa3b38882)
 
 ## Screenshots
 
 Landing Page:
-![landing_page](https://github.com/rajesh-adk-137/CarePlus/assets/89499267/93a13d24-d000-47fc-896e-5ad84e995f24)
+![landing_page](https://github.com/rajesh-adk-137/PrescribePlus/assets/89499267/93a13d24-d000-47fc-896e-5ad84e995f24)
 about Page:
-![about_page](https://github.com/rajesh-adk-137/CarePlus/assets/89499267/8cdc8d93-e75e-424b-884b-a0a1b25bdd7a)
+![about_page](https://github.com/rajesh-adk-137/PrescribePlus/assets/89499267/8cdc8d93-e75e-424b-884b-a0a1b25bdd7a)
 
 about app:
-![about_app](https://github.com/rajesh-adk-137/CarePlus/assets/89499267/29c97ff9-ff00-429f-ae19-798aa75d630e)
+![about_app](https://github.com/rajesh-adk-137/PrescribePlus/assets/89499267/29c97ff9-ff00-429f-ae19-798aa75d630e)
 
 response for mild cases:
-![response_for_mild_case](https://github.com/rajesh-adk-137/CarePlus/assets/89499267/00af038e-1c78-425e-94e0-b9672962e0dd)
+![response_for_mild_case](https://github.com/rajesh-adk-137/PrescribePlus/assets/89499267/00af038e-1c78-425e-94e0-b9672962e0dd)
 
 response for severe cases:
-![response_for_severe_case](https://github.com/rajesh-adk-137/CarePlus/assets/89499267/a382886f-e120-4ea3-90a8-ccfc7cd1865b)
+![response_for_severe_case](https://github.com/rajesh-adk-137/PrescribePlus/assets/89499267/a382886f-e120-4ea3-90a8-ccfc7cd1865b)
 
 response for extreme cases:
-![response_for_extreme_case](https://github.com/rajesh-adk-137/CarePlus/assets/89499267/8dd4e801-99d1-4d12-b00c-2868085185cd)
+![response_for_extreme_case](https://github.com/rajesh-adk-137/PrescribePlus/assets/89499267/8dd4e801-99d1-4d12-b00c-2868085185cd)
 
 
 doctor card:
-![doctor_card](https://github.com/rajesh-adk-137/CarePlus/assets/89499267/35073fe6-8a9f-4c9e-827b-9a26e6d5f745)
+![doctor_card](https://github.com/rajesh-adk-137/PrescribePlus/assets/89499267/35073fe6-8a9f-4c9e-827b-9a26e6d5f745)
 
 illness form:
-![illness_form](https://github.com/rajesh-adk-137/CarePlus/assets/89499267/5e9851b2-7585-4123-91c9-9789e509dc55)
+![illness_form](https://github.com/rajesh-adk-137/PrescribePlus/assets/89499267/5e9851b2-7585-4123-91c9-9789e509dc55)
 
 
 doctor form:
-![doctor_form](https://github.com/rajesh-adk-137/CarePlus/assets/89499267/6ed7dc7a-e034-48b5-9d9c-1c968a7dfd79)
+![doctor_form](https://github.com/rajesh-adk-137/PrescribePlus/assets/89499267/6ed7dc7a-e034-48b5-9d9c-1c968a7dfd79)
 
 
 ## Contributing
 
-We welcome contributions to CarePlus! If you'd like to contribute, please follow these steps:
+We welcome contributions to PrescribePlus! If you'd like to contribute, please follow these steps:
 
 1. **Fork the repository**
 2. **Create your feature branch**:

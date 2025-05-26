@@ -1,31 +1,6 @@
 ---
 # PrescribePlus: AI-Powered Healthcare Management System
 
-<p align="center">
-  <a href="https://github.com/rajesh-adk-137/PrescribePlus/" target="blank">
-    <img src="https://img.shields.io/github/watchers/rajesh-adk-137/PrescribePlus?style=for-the-badge&logo=appveyor" alt="Watchers"/>
-  </a>
-  <a href="https://github.com/rajesh-adk-137/PrescribePlus/fork" target="blank">
-    <img src="https://img.shields.io/github/forks/rajesh-adk-137/PrescribePlus?style=for-the-badge&logo=appveyor" alt="Forks"/>
-  </a>
-  <a href="https://github.com/rajesh-adk-137/PrescribePlus/stargazers" target="blank">
-    <img src="https://img.shields.io/github/stars/rajesh-adk-137/PrescribePlus?style=for-the-badge&logo=appveyor" alt="Star"/>
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/rajesh-adk-137/PrescribePlus/issues" target="blank">
-    <img src="https://img.shields.io/github/issues/rajesh-adk-137/PrescribePlus?style=for-the-badge&logo=appveyor" alt="Issues"/>
-  </a>
-  <a href="https://github.com/rajesh-adk-137/PrescribePlus/pulls" target="blank">
-    <img src="https://img.shields.io/github/issues-pr/rajesh-adk-137/PrescribePlus?style=for-the-badge&logo=appveyor" alt="Open Pull Request"/>
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/rajesh-adk-137/PrescribePlus/blob/master/LICENSE" target="blank">
-    <img src="https://img.shields.io/github/license/rajesh-adk-137/PrescribePlus?style=for-the-badge&logo=appveyor" alt="License" />
-  </a>
-</p>
-
 ## Table of Contents
 
 - [Overview](#overview)
